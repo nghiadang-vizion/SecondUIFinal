@@ -49,7 +49,7 @@
     }
 
     .hero-content {
-        transform: translateY(-4px);
+        transform: translateY(-4px) !important;
     }
 
     .single_catagory_area {
