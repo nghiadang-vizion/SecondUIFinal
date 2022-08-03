@@ -114,6 +114,7 @@
         align-items: center;
         justify-content: flex-end;
         margin-right: 20px;
+        transform: translateY(-1.4px);
     }
 
     .classycloseIcon .cross-wrap {
@@ -144,6 +145,7 @@
         left: 0;
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
+
     }
 
     .classynav ul li {
@@ -153,6 +155,7 @@
         z-index: 10;
         background-color: #f2f4f8;
         border-bottom: 1px solid rgba(255, 255, 255, .5);
+        height: 38px;
     }
 
     .single-mega li {
@@ -242,8 +245,9 @@
 
     .megamenu-item i{
         position: absolute;
-        right: 20px;
+        right: 15px;
         top: 25%;
+        font-size: 15px;
     }
     .megamenu-item .arrow3.click,
     .megamenu-item .arrow1.click{
