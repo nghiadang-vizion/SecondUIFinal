@@ -16,6 +16,7 @@
         left: 17%;
         position: absolute;
         cursor: pointer;
+        transform: translateX(-10px);
     }
 
     .burger div {
@@ -69,6 +70,7 @@
 
     .brands-area .single-brands-logo img {
         max-width: 90px;
+        
     }
 
     .container {
@@ -272,11 +274,19 @@
     }
     .essence-btn{
         padding: 0 20px;
-        transform: translate(-23px, -55px);
         width: 170px;
         font-family: "Poppins", sans-serif;
     }
     .megamenu-item .arrow4.click{
         top: 0;
+    }
+    .tablet-btn{
+        width: 210px;
+    }
+    .hover-content{
+        transform: translate(15px,-65px);
+    }
+    .tablet_row{
+        transform: scale(1.08) translateY(12px);
     }
 }

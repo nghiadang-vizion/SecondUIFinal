@@ -11,4 +11,7 @@
     .classynav{
         display: none !important;
     }
+    .hero-content{
+        transform: translate(-15px,-5px);
+    }
 }
