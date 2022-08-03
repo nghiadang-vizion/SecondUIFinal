@@ -289,4 +289,7 @@
     .tablet_row{
         transform: scale(1.08) translateY(12px);
     }
+    .hero-content h6{
+        transform: translateY(-1px);
+    }
 }

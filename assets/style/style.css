@@ -6,7 +6,6 @@
 
 body{
     font-family: "Poppins",sans-serif;
-    height: 1000px;
 }
 
 li{
@@ -16,6 +15,7 @@ li{
 a{
     text-decoration: none !important;
 }
+
 
 /* header */
 .header_area{
@@ -55,6 +55,7 @@ a{
 
 .nav_left_side img{
     margin-right: 30px;
+    margin-top: 2px;
 }
 
 .nav_left_side-lst{
@@ -100,7 +101,7 @@ a{
 
 .nav_left_side-item .content{
     background: #fff;
-    padding: 15px 10px;
+    padding: 15px 19px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -123,6 +124,7 @@ a{
 
 .menu_img img{
     width: 365px;
+    transform: translate(-5px,-3px);
 }
 
 .mega-links li a{
@@ -170,6 +172,12 @@ a{
     font-size: 14px;
     border-bottom: 1px solid #f2f4f8;
     padding: 8px 8px;
+    font-family: "Poppins",sans-serif;
+    transform: translateY(-1px);
+}
+
+.menu_img{
+
 }
 
 .nav_left_side-item:first-child:hover .mega-box{
@@ -356,6 +364,7 @@ a{
     font-weight: 600;
     transition: all 0.5s;
     text-align: center;
+    font-family: "Poppins",sans-serif;
 }
 
 .essence-btn:hover{
@@ -407,6 +416,7 @@ a{
     text-transform: uppercase;
     font-family: "Poppins",sans-serif;
     transition: all 0.3s;
+    line-height: 45px;
 }
 
 .single_catagory_area:after {
@@ -482,6 +492,7 @@ a{
     font-family: "Ubuntu", sans-serif;
     margin-top: 5px;
     color: #000;
+    transform: translateY(-2px);
 }
 
 .justify-content-between{
